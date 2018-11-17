@@ -42,3 +42,17 @@ Text Domain:  accelerate-theme-child
 #masthead {
   background: none repeat scroll 0 0 #45ac9d;
 }
+
+
+/* Case Studies*/
+aside.case-study-sidebar {
+    float: left;
+    width: 300px;
+}
+div.case-study-images {
+    float: right;
+    width: 600px;
+}
+.case-study-sidebar h5{
+    font-size: 17px;
+} 
