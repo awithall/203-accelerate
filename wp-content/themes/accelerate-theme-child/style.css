@@ -72,3 +72,32 @@ div.case-study-images img {
 .case-study p strong {
   color: #45ac9d;
 }
+
+/*FOOTER STYLES*/
+footer ul {
+  list-style-type: none;
+
+}
+.social-media-menu li{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+    font-size: 1.4em;
+  color: #ffffff;
+  line-height: 30px;
+    text-align: center;
+    background: #3b3b3b;
+    margin-left: 5px;
+    float: left;
+  }
+
+.social-media-menu li a{
+  color: #ffffff;
+}
+
+  margin-left: 15px;
+  padding: 5px;
+  font-size: 1.5em;
+  background-color: #3b3b3b;
+  color: #ffffff;
+}
