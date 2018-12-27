@@ -59,6 +59,16 @@ div.case-study-images {
     float: right;
     width: 600px;
 }
+div.case-study-images img {
+	width: 100%;
+	height: auto;
+}
 .case-study-sidebar h5{
     font-size: 17px;
+}
+.clear {
+  clear: both;
+}
+.case-study p strong {
+  color: #45ac9d;
 }
