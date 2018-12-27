@@ -17,6 +17,12 @@ Text Domain:  accelerate-theme-child
 .button {
 	background: #45ac9d;
 }
+ul.homepage_featured_work {
+  list-style-type: none;
+}
+.homepage_featured_work li {
+  float: left;
+}
 /*BLOG POST STYLES */
 .blog-post {
 	width: 50%;
@@ -38,13 +44,13 @@ Text Domain:  accelerate-theme-child
 	color: #45ac9d;
 	text-transform: uppercase;
 }
-/* BODY STYLES*/
+/*BODY STYLES*/
 #masthead {
   background: none repeat scroll 0 0 #45ac9d;
 }
 
 
-/* Case Studies*/
+/*CASE STUFIES STYLES*/
 aside.case-study-sidebar {
     float: left;
     width: 300px;
@@ -55,4 +61,4 @@ div.case-study-images {
 }
 .case-study-sidebar h5{
     font-size: 17px;
-} 
+}
