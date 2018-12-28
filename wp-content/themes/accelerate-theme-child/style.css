@@ -22,6 +22,7 @@ ul.homepage_featured_work {
 }
 .homepage_featured_work li {
   float: left;
+  margin: 6px;
 }
 /*BLOG POST STYLES */
 .blog-post {
