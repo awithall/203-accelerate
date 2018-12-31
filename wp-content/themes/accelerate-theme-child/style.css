@@ -77,7 +77,6 @@ div.case-study-images img {
 /*FOOTER STYLES*/
 footer ul {
   list-style-type: none;
-
 }
 .social-media-menu li{
   width: 30px;
@@ -90,15 +89,28 @@ footer ul {
     background: #3b3b3b;
     margin-left: 5px;
     float: left;
-  }
-
+}
 .social-media-menu li a{
   color: #ffffff;
 }
 
-  margin-left: 15px;
-  padding: 5px;
-  font-size: 1.5em;
-  background-color: #3b3b3b;
-  color: #ffffff;
+/*CONTACT FORM STYLES*/
+input[type="button"], input[type="submit"] {
+  float:right;
+    font: 700 1em/1 'Montserrat', 'OpenSans', Arial, sans-serif;
+    color: #fff;
+    background: #45ac9d;
+    border: none;
+    padding: 1em 3.75em;
+    text-align: center;
+}
+.ninja-forms-form-wrap {
+  width: 75%;
+}
+.main-content p {
+    color: #3b3b3b;
+    font: 17px/1.65 'Open Sans', Arial, sans-serif;
+    margin: 1em auto;
+    width: 75%;
+    float: left;
 }
