@@ -59,4 +59,17 @@ get_header(); ?>
  		</div>
 	</section>
 
+<section class="twitter">
+		<div class="site-content">
+			<div class="tweet-widgit">
+			<h4>Recent tweet</h4>
+	<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+<div id="secondary" class="widget-area" role="complementary">
+	<?php dynamic_sidebar( 'sidebar-2' ); ?>
+</div>
+<?php endif; ?>
+</div>
+<p class="follow-us-link"><a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Flocalhost%3A8888%2Faccelerate%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=ashleighwithall&tw_p=followbutton">Follow Us ›</a></p>
+</section>
+
 <?php get_footer(); ?>

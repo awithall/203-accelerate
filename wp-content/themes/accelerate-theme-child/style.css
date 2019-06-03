@@ -74,6 +74,167 @@ div.case-study-images img {
   color: #45ac9d;
 }
 
+/*ABOUT - OUR SERVICES STYLES*/
+.about-hero-title h2{
+  color: #ffffff;
+}
+#about-title {
+  text-align: center;
+}
+
+#about-title p{
+  text-align: center;
+}
+
+.individual-about-section li{
+  display: inline-block;
+}
+
+.services {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+
+}
+
+.services h1, h2 {
+    text-align: center;
+}
+
+.services h3, p {
+    text-align: left;
+}
+
+.about-image {
+    width: 30%;
+    float: left;
+    margin-top: 40px;
+  }
+
+.about-description {
+    width: 65%;
+    float: right;
+}
+
+.about-description p{
+    display: inline-block;
+}
+
+.individual-about-service:nth-child(even) .about-image {
+    float: right;
+    margin-left: 5%;
+}
+.about-services {
+    list-style: none;
+    margin-left: auto;
+}
+
+.about-services li {
+    list-style: none;
+    margin-left: auto;
+    display: inline-block;
+}
+
+.contact-button h2 {
+    float: left;
+    margin-left: 20%;
+}
+.cbutton {
+    float: right;
+    margin-top: 30px;
+    margin-right: 20%;
+}
+
+.cbutton {
+    font: 700 1em/1 'Montserrat', 'OpenSans', Arial, sans-serif;
+    background: #45ac9d;
+    color: #ffffff;
+    padding: 1em 3.75em;
+    text-align: center;
+}
+
+/* END about page  */
+
+/*404 STYLES*/
+
+.page404-content {
+  background-color: #fff44c;
+  clear: both;
+}
+.page404-image {
+  width:28%;
+  display: inline-block;
+  float: left;
+  margin-top: 10%;
+}
+#page404 {
+  width: 70%;
+  display: inline-block;
+  float: right;
+}
+
+#page404 h1 {
+  color: #45ac9d;
+  font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+  font-size: 300%;
+  line-height: normal;
+}
+
+#page404 span p{
+  color: #3b3b3b;
+  font-size: 120%;
+  width: 100%;
+  line-height: 1.25em;
+  margin: 0.15;
+}
+
+#page404 a {
+  color: #45ac9d;
+  font-size: 120%;
+}
+
+/* END 404 page  */
+
+/*TWITTER STYLES*/
+.twitter {
+  width: 47%;
+  float: right;
+  margin-left: 1.5em;
+  margin-bottom: 2em;
+}
+
+.tweet-widgit {
+	margin-bottom: 2em;
+  margin-right: 12em;
+}
+.tweet-widgit h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+
+.widget-title a {
+	font-size: 1.5em;
+}
+
+.tweets li {
+  list-style-type: none;
+}
+
+.follow-us-link {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #45ac9d;
+  text-transform: uppercase;
+}
+
+
+/* END Twitter widget */
+
 /*FOOTER STYLES*/
 footer ul {
   list-style-type: none;

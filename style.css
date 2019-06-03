@@ -1,0 +1,32 @@
+
+/*
+Theme Name:   Accelerate Theme Child
+Theme URI:    http://example.com/accelerate-theme-child/
+Description:  Accelerate Child Theme - Accelerate
+Author:   	Ashleigh Withall
+Author URI:   http://example.com
+Template: 	accelerate-theme
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+/*ABOUT - OUR SERVICES STYLES*/
+.about-hero-title h2{
+  color: #ffffff;
+}
+#about-title {
+  text-align: center;
+}
+
+.about-services ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.about-services li{float : left;}
+li:nth-child(odd) {float: right;}
+
+individual-about-service:nth-child(even) .about-description {
+    float: right;
+}
